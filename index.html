@@ -1,0 +1,30 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a id="person" href="/Person">Person</a></li>
+        <li><a href="/Sum">Sum</a></li>
+    </ul>
+    <input type="number" id="numberTxt"   placeholder="enter person id" onkeyup="setPersonId()">
+
+
+    <script>
+
+
+  
+        
+    function setPersonId(){
+        
+       var numberTxt= document.getElementById("numberTxt").value;
+       document.getElementById("person").setAttribute("href","/Person/"+numberTxt)
+    }
+
+    </script>
+</body>
+
+</html>
