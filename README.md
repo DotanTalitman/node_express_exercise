@@ -1,5 +1,6 @@
 # node_express_exercise
 
+
 # the purpose of the exercise is to create a basic manu( ul li) with Home,Person and Sum links.
 # also , create a textbox below the menu with type number.
 # clicking the person link will send the number in the textbox to the  server on the url route (example : person/4)
